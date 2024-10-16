@@ -1,0 +1,1204 @@
+2024-10-16 20:50:17.535 [35m[Test worker][0;39m [34m[INFO][0;39m c.e.d.DemoApplicationTests - Starting DemoApplicationTests using Java 17.0.12 with PID 6340 (started by b in /home/b/study/springboot-alti) 
+2024-10-16 20:50:17.537 [35m[Test worker][0;39m [34m[INFO][0;39m c.e.d.DemoApplicationTests - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 20:50:18.615 [35m[Test worker][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 20:50:18.632 [35m[Test worker][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces. 
+2024-10-16 20:50:18.857 [35m[Test worker][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration. 
+2024-10-16 20:50:19.280 [35m[Test worker][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 20:50:19.539 [35m[Test worker][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:49437c51-10a5-427a-8cf1-9d92eaddb18c user=SA 
+2024-10-16 20:50:19.541 [35m[Test worker][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-16 20:50:19.608 [35m[Test worker][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 20:50:19.688 [35m[Test worker][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 20:50:19.741 [35m[Test worker][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 20:50:20.164 [35m[Test worker][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 20:50:20.618 [35m[Test worker][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 20:50:20.622 [35m[Test worker][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 20:50:20.825 [35m[Test worker][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 20:50:22.749 [35m[Test worker][0;39m [34m[INFO][0;39m c.e.d.DemoApplicationTests - Started DemoApplicationTests in 5.643 seconds (process running for 7.193) 
+2024-10-16 20:50:23.628 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 20:50:23.632 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-10-16 20:50:23.636 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-10-16 20:56:50.337 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 8494 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 20:56:50.339 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 20:56:50.954 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 20:56:50.965 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces. 
+2024-10-16 20:56:51.103 [35m[main][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 20:56:51.456 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 20:56:51.468 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 20:56:51.472 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 20:56:51.472 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 20:56:51.524 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 20:56:51.524 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1139 ms 
+2024-10-16 20:56:51.655 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 20:56:51.825 [35m[main][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:be68c75b-ded2-4605-a6d2-7fefc5724213 user=SA 
+2024-10-16 20:56:51.826 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-16 20:56:51.861 [35m[main][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 20:56:51.896 [35m[main][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 20:56:51.918 [35m[main][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 20:56:52.189 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 20:56:52.493 [35m[main][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 20:56:52.496 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 20:56:52.535 [35m[main][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 20:56:53.159 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 20:56:53.177 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 20:56:53.188 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 3.347 seconds (process running for 3.67) 
+2024-10-16 20:59:02.966 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 20:59:02.970 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-10-16 20:59:02.975 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-10-16 20:59:06.666 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 9287 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 20:59:06.668 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 20:59:07.274 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 20:59:07.287 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces. 
+2024-10-16 20:59:07.430 [35m[main][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 20:59:07.759 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 20:59:07.768 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 20:59:07.772 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 20:59:07.772 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 20:59:07.820 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 20:59:07.820 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1107 ms 
+2024-10-16 20:59:07.941 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 20:59:08.116 [35m[main][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:2fdd132b-f524-436a-ad62-c6309b11c0ff user=SA 
+2024-10-16 20:59:08.118 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-16 20:59:08.153 [35m[main][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 20:59:08.196 [35m[main][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 20:59:08.219 [35m[main][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 20:59:08.470 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 20:59:08.766 [35m[main][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 20:59:08.769 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 20:59:08.808 [35m[main][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 20:59:09.414 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 20:59:09.429 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 20:59:09.439 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 3.248 seconds (process running for 3.57) 
+2024-10-16 21:17:50.182 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:17:50.186 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-10-16 21:17:50.192 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-10-16 21:18:29.817 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 10413 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:18:29.819 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:18:30.413 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:18:30.425 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:18:30.560 [35m[main][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 21:18:30.891 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:18:30.900 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:18:30.904 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:18:30.904 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:18:30.955 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:18:30.955 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1092 ms 
+2024-10-16 21:18:31.079 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:18:31.248 [35m[main][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f5bf2917-59d0-45b5-9e04-e28753cd3f6f user=SA 
+2024-10-16 21:18:31.250 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-16 21:18:31.286 [35m[main][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:18:31.327 [35m[main][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:18:31.354 [35m[main][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:18:31.603 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:18:31.893 [35m[main][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:18:31.896 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:18:31.938 [35m[main][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 21:18:32.540 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:18:32.556 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 21:18:32.567 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 3.217 seconds (process running for 3.53) 
+2024-10-16 21:20:25.725 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:20:25.730 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-10-16 21:20:25.735 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-10-16 21:20:29.837 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 12799 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:20:29.839 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:20:30.446 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:20:30.458 [35m[main][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:20:30.596 [35m[main][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 21:20:30.983 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:20:30.994 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:20:30.998 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:20:30.998 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:20:31.054 [35m[main][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:20:31.054 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1172 ms 
+2024-10-16 21:20:31.205 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:20:31.375 [35m[main][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:6e586d47-48ef-49f3-80ea-9a296d3cd038 user=SA 
+2024-10-16 21:20:31.377 [35m[main][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-16 21:20:31.410 [35m[main][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:20:31.452 [35m[main][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:20:31.476 [35m[main][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:20:31.735 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:20:32.036 [35m[main][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:20:32.040 [35m[main][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:20:32.095 [35m[main][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 21:20:32.736 [35m[main][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:20:32.752 [35m[main][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 21:20:32.767 [35m[main][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 3.42 seconds (process running for 3.788) 
+2024-10-16 21:20:40.011 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:20:40 KST 2024  
+2024-10-16 21:20:50.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:20:50 KST 2024  
+2024-10-16 21:21:00.001 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:21:00 KST 2024  
+2024-10-16 21:21:10.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:21:10 KST 2024  
+2024-10-16 21:21:20.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:21:20 KST 2024  
+2024-10-16 21:21:30.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:21:30 KST 2024  
+2024-10-16 21:21:40.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:21:40 KST 2024  
+2024-10-16 21:21:50.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:21:50 KST 2024  
+2024-10-16 21:22:00.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:22:00 KST 2024  
+2024-10-16 21:22:10.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:22:10 KST 2024  
+2024-10-16 21:22:20.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:22:20 KST 2024  
+2024-10-16 21:22:30.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:22:30 KST 2024  
+2024-10-16 21:22:40.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:22:40 KST 2024  
+2024-10-16 21:22:50.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:22:50 KST 2024  
+2024-10-16 21:23:00.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:23:00 KST 2024  
+2024-10-16 21:23:05.432 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:23:05.437 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-10-16 21:23:05.443 [35m[SpringApplicationShutdownHook][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-10-16 21:23:09.998 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 13583 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:23:10.001 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:23:10.056 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:23:10.057 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:23:10.733 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:23:10.744 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:23:10.908 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 21:23:11.342 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:23:11.352 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:11.355 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:23:11.356 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:23:11.397 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:23:11.398 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1340 ms 
+2024-10-16 21:23:11.440 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:23:11.635 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:9e2b7ff2-7932-4a90-83c0-734d7472ec1e user=SA 
+2024-10-16 21:23:11.637 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Start completed. 
+2024-10-16 21:23:11.650 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:9e2b7ff2-7932-4a90-83c0-734d7472ec1e' 
+2024-10-16 21:23:11.796 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:23:11.837 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:23:11.867 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:23:12.132 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:23:12.446 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:23:12.450 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:23:12.516 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 21:23:13.174 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-16 21:23:13.189 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:13.203 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 21:23:13.219 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 3.719 seconds (process running for 4.184) 
+2024-10-16 21:23:20.013 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:23:20 KST 2024  
+2024-10-16 21:23:21.581 [35m[File Watcher][0;39m [34m[INFO][0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification) 
+2024-10-16 21:23:21.587 [35m[Thread-5][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:21.601 [35m[Thread-5][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:23:21.611 [35m[Thread-5][0;39m [31m[WARN][0;39m o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+2024-10-16 21:23:21.613 [35m[Thread-5][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated... 
+2024-10-16 21:23:21.617 [35m[Thread-5][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed. 
+2024-10-16 21:23:21.760 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 13583 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:23:21.761 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:23:21.933 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:23:21.935 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:23:21.977 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 21:23:22.077 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:23:22.078 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:22.078 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:23:22.078 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:23:22.089 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:23:22.089 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 325 ms 
+2024-10-16 21:23:22.107 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-2 - Starting... 
+2024-10-16 21:23:22.110 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:e0f1e537-6375-450c-b0d7-f44061a64c26 user=SA 
+2024-10-16 21:23:22.111 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-2 - Start completed. 
+2024-10-16 21:23:22.111 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e0f1e537-6375-450c-b0d7-f44061a64c26' 
+2024-10-16 21:23:22.146 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:23:22.149 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:23:22.162 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:23:22.186 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:23:22.186 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:23:22.208 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 21:23:22.411 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-16 21:23:22.421 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:22.424 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 21:23:22.431 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 0.717 seconds (process running for 13.395) 
+2024-10-16 21:23:22.433 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-10-16 21:23:23.816 [35m[File Watcher][0;39m [34m[INFO][0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications) 
+2024-10-16 21:23:23.819 [35m[Thread-7][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:23.824 [35m[Thread-7][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:23:23.826 [35m[Thread-7][0;39m [31m[WARN][0;39m o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+2024-10-16 21:23:23.828 [35m[Thread-7][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated... 
+2024-10-16 21:23:23.829 [35m[Thread-7][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed. 
+2024-10-16 21:23:23.952 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 13583 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:23:23.953 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:23:24.083 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:23:24.084 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:23:24.115 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 21:23:24.173 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:23:24.173 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:24.174 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:23:24.174 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:23:24.184 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:23:24.184 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 228 ms 
+2024-10-16 21:23:24.202 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-3 - Starting... 
+2024-10-16 21:23:24.205 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:28c069bd-78ef-46ce-b113-fd966ceeab76 user=SA 
+2024-10-16 21:23:24.206 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-3 - Start completed. 
+2024-10-16 21:23:24.206 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:28c069bd-78ef-46ce-b113-fd966ceeab76' 
+2024-10-16 21:23:24.233 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:23:24.236 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:23:24.246 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:23:24.267 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:23:24.267 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:23:24.289 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 21:23:24.467 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-16 21:23:24.474 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:23:24.477 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 21:23:24.482 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 0.571 seconds (process running for 15.446) 
+2024-10-16 21:23:24.483 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-10-16 21:23:30.001 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:23:30 KST 2024  
+2024-10-16 21:23:40.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:23:40 KST 2024  
+2024-10-16 21:23:50.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:23:50 KST 2024  
+2024-10-16 21:24:00.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:24:00 KST 2024  
+2024-10-16 21:24:10.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:24:10 KST 2024  
+2024-10-16 21:24:20.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:24:20 KST 2024  
+2024-10-16 21:24:26.946 [35m[File Watcher][0;39m [34m[INFO][0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications) 
+2024-10-16 21:24:26.949 [35m[Thread-12][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:24:26.953 [35m[Thread-12][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:24:26.954 [35m[Thread-12][0;39m [31m[WARN][0;39m o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+2024-10-16 21:24:26.955 [35m[Thread-12][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated... 
+2024-10-16 21:24:26.956 [35m[Thread-12][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed. 
+2024-10-16 21:24:27.062 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 13583 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:24:27.063 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:24:27.176 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:24:27.178 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:24:27.203 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[com.app]' package. Please check your configuration. 
+2024-10-16 21:24:27.255 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:24:27.256 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:24:27.257 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:24:27.257 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:24:27.266 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:24:27.266 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 201 ms 
+2024-10-16 21:24:27.284 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-4 - Starting... 
+2024-10-16 21:24:27.287 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.p.HikariPool - HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:34cc182a-789c-40e1-ba4b-d3dccfb8fde2 user=SA 
+2024-10-16 21:24:27.287 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-4 - Start completed. 
+2024-10-16 21:24:27.287 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:34cc182a-789c-40e1-ba4b-d3dccfb8fde2' 
+2024-10-16 21:24:27.310 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:24:27.312 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:24:27.318 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:24:27.336 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:24:27.337 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:24:27.359 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-10-16 21:24:27.547 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729 
+2024-10-16 21:24:27.556 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:24:27.558 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/' 
+2024-10-16 21:24:27.565 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Started DemoApplication in 0.539 seconds (process running for 78.529) 
+2024-10-16 21:24:27.567 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged 
+2024-10-16 21:24:30.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:24:30 KST 2024  
+2024-10-16 21:24:40.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:24:40 KST 2024  
+2024-10-16 21:24:50.000 [35m[scheduler-2][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:24:50 KST 2024  
+2024-10-16 21:25:00.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:25:00 KST 2024  
+2024-10-16 21:25:10.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:25:10 KST 2024  
+2024-10-16 21:25:20.000 [35m[scheduler-1][0;39m [34m[INFO][0;39m c.a.s.SchedulerApp - Wed Oct 16 21:25:20 KST 2024  
+2024-10-16 21:25:29.018 [35m[File Watcher][0;39m [34m[INFO][0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications) 
+2024-10-16 21:25:29.020 [35m[Thread-16][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:25:29.023 [35m[Thread-16][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:25:29.024 [35m[Thread-16][0;39m [31m[WARN][0;39m o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224] 
+2024-10-16 21:25:29.025 [35m[Thread-16][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-4 - Shutdown initiated... 
+2024-10-16 21:25:29.026 [35m[Thread-16][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-4 - Shutdown completed. 
+2024-10-16 21:25:29.139 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 13583 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:25:29.139 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:25:29.270 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class] 
+2024-10-16 21:25:29.275 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:25:29.291 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-16 21:26:25.939 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 15090 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:26:25.941 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:26:25.991 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:26:25.991 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:26:26.438 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class] 
+2024-10-16 21:26:26.448 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:26:26.464 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-16 21:30:34.732 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 16145 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:30:34.734 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:30:34.782 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:30:34.783 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:30:35.225 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class] 
+2024-10-16 21:30:35.235 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:30:35.251 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-16 21:31:00.525 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 17069 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:31:00.527 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:31:00.581 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:31:00.581 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:31:01.050 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class] 
+2024-10-16 21:31:01.061 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:31:01.076 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-16 21:36:53.738 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 18186 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:36:53.740 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:36:53.788 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:36:53.788 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:36:54.237 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class] 
+2024-10-16 21:36:54.248 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:36:54.265 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-16 21:37:55.792 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 18698 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:37:55.794 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:37:55.840 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:37:55.840 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:37:56.428 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:37:56.445 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:37:56.603 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[org.demo.twodatabase.mapper.altibase]' package. Please check your configuration. 
+2024-10-16 21:37:57.012 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:37:57.022 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:37:57.025 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:37:57.026 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:37:57.069 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:37:57.070 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1229 ms 
+2024-10-16 21:37:57.117 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:37:58.232 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:37:59.262 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:37:59.299 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:37:59.323 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:37:59.545 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:37:59.587 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:38:00.591 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.s.SqlExceptionHelper - SQL Error: 334350, SQLState: 08U01 
+2024-10-16 21:38:00.591 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.h.e.j.s.SqlExceptionHelper - Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database> 
+2024-10-16 21:38:00.594 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata 
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>
+	at Altibase.jdbc.driver.ex.Error.createSQLExceptionInternal(Error.java:183)
+	at Altibase.jdbc.driver.ex.Error.throwSQLExceptionInternal(Error.java:176)
+	at Altibase.jdbc.driver.ex.Error.throwSQLException(Error.java:116)
+	at Altibase.jdbc.driver.AltibaseUrlParser.throwErrorForInvalidConnectionUrl(AltibaseUrlParser.java:233)
+	at Altibase.jdbc.driver.AltibaseUrlParser.parseURL(AltibaseUrlParser.java:99)
+	at Altibase.jdbc.driver.AltibaseDriver.connect(AltibaseDriver.java:63)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+2024-10-16 21:38:00.598 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided) 
+2024-10-16 21:38:00.599 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided) 
+2024-10-16 21:38:00.603 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-10-16 21:38:00.622 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:38:00.641 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:153)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:364)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 35 common frames omitted
+2024-10-16 21:39:49.621 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 19275 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:39:49.623 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:39:49.671 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:39:49.671 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:39:50.269 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:39:50.286 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:39:50.446 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[org.demo.twodatabase.mapper.altibase]' package. Please check your configuration. 
+2024-10-16 21:39:50.859 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:39:50.869 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:39:50.872 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:39:50.872 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:39:50.912 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:39:50.912 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1240 ms 
+2024-10-16 21:39:50.959 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:39:52.080 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:39:53.110 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:39:53.151 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:39:53.181 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:39:53.415 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:39:53.451 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:39:54.456 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.s.SqlExceptionHelper - SQL Error: 334350, SQLState: 08U01 
+2024-10-16 21:39:54.456 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.h.e.j.s.SqlExceptionHelper - Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database> 
+2024-10-16 21:39:54.458 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata 
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>
+	at Altibase.jdbc.driver.ex.Error.createSQLExceptionInternal(Error.java:183)
+	at Altibase.jdbc.driver.ex.Error.throwSQLExceptionInternal(Error.java:176)
+	at Altibase.jdbc.driver.ex.Error.throwSQLException(Error.java:116)
+	at Altibase.jdbc.driver.AltibaseUrlParser.throwErrorForInvalidConnectionUrl(AltibaseUrlParser.java:233)
+	at Altibase.jdbc.driver.AltibaseUrlParser.parseURL(AltibaseUrlParser.java:99)
+	at Altibase.jdbc.driver.AltibaseDriver.connect(AltibaseDriver.java:63)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+2024-10-16 21:39:54.462 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided) 
+2024-10-16 21:39:54.463 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided) 
+2024-10-16 21:39:54.467 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-10-16 21:39:54.485 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:39:54.502 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment] due to: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:276)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	... 20 common frames omitted
+Caused by: org.hibernate.HibernateException: Unable to determine Dialect without JDBC metadata (please set 'jakarta.persistence.jdbc.url' for common cases or 'hibernate.dialect' when a custom Dialect implementation must be provided)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:191)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:87)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentWithDefaults(JdbcEnvironmentInitiator.java:153)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:364)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 35 common frames omitted
+2024-10-16 21:41:15.641 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 19842 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:41:15.643 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:41:15.693 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:41:15.694 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:41:16.306 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:41:16.324 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:41:16.488 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[org.demo.twodatabase.mapper.altibase]' package. Please check your configuration. 
+2024-10-16 21:41:16.927 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:41:16.937 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:41:16.941 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:41:16.942 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:41:16.985 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:41:16.985 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1291 ms 
+2024-10-16 21:41:17.034 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:41:18.163 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:41:19.191 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:41:19.231 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:41:19.256 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:41:19.488 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:41:19.522 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:41:20.526 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.s.SqlExceptionHelper - SQL Error: 334350, SQLState: 08U01 
+2024-10-16 21:41:20.527 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.h.e.j.s.SqlExceptionHelper - Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database> 
+2024-10-16 21:41:20.528 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata 
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>
+	at Altibase.jdbc.driver.ex.Error.createSQLExceptionInternal(Error.java:183)
+	at Altibase.jdbc.driver.ex.Error.throwSQLExceptionInternal(Error.java:176)
+	at Altibase.jdbc.driver.ex.Error.throwSQLException(Error.java:116)
+	at Altibase.jdbc.driver.AltibaseUrlParser.throwErrorForInvalidConnectionUrl(AltibaseUrlParser.java:233)
+	at Altibase.jdbc.driver.AltibaseUrlParser.parseURL(AltibaseUrlParser.java:99)
+	at Altibase.jdbc.driver.AltibaseDriver.connect(AltibaseDriver.java:63)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+2024-10-16 21:41:20.549 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-10-16 21:41:20.820 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:41:20.823 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:41:20.842 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'altibaseSqlSessionFactory' defined in class path resource [com/app/config/AltibaseDataSourceConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist 
+2024-10-16 21:41:20.843 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:41:20.847 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-10-16 21:41:20.862 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:41:20.877 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'altibaseSqlSessionFactory' defined in class path resource [com/app/config/AltibaseDataSourceConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 24 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:230)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:592)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:350)
+	at org.springframework.boot.devtools.restart.ClassLoaderFilesResourcePatternResolver.getResources(ClassLoaderFilesResourcePatternResolver.java:113)
+	at org.springframework.context.support.GenericApplicationContext.getResources(GenericApplicationContext.java:261)
+	at com.app.config.AltibaseDataSourceConfiguration.altibaseSqlSessionFactory(AltibaseDataSourceConfiguration.java:42)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$0.CGLIB$altibaseSqlSessionFactory$0(<generated>)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$0.altibaseSqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 25 common frames omitted
+2024-10-16 21:41:58.848 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 20337 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:41:58.850 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:41:58.897 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:41:58.898 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:41:59.354 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class] 
+2024-10-16 21:41:59.365 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:41:59.383 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.parsing.BeanDefinitionParsingException: Configuration problem: @Configuration class 'AltibaseDataSourceConfiguration' contains overloaded @Bean methods with name 'altibaseSqlSessionFactory'. Use unique method names for separate bean definitions (with individual conditions etc) or switch '@Configuration.enforceUniqueMethods' to 'false'.
+Offending resource: class path resource [com/app/config/AltibaseDataSourceConfiguration.class]
+	at org.springframework.beans.factory.parsing.FailFastProblemReporter.error(FailFastProblemReporter.java:72)
+	at org.springframework.context.annotation.ConfigurationClass.validate(ConfigurationClass.java:230)
+	at org.springframework.context.annotation.ConfigurationClassParser.validate(ConfigurationClassParser.java:206)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:418)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:290)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:349)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:118)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:789)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:607)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-10-16 21:42:18.598 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - Starting DemoApplication using Java 17.0.12 with PID 20769 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:42:18.601 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.DemoApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:42:18.649 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:42:18.650 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:42:19.276 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:42:19.294 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:42:19.464 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[org.demo.twodatabase.mapper.altibase]' package. Please check your configuration. 
+2024-10-16 21:42:19.905 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:42:19.915 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:42:19.918 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:42:19.919 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:42:19.976 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:42:19.977 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1326 ms 
+2024-10-16 21:42:20.023 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:42:21.145 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:42:22.174 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:42:22.220 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:42:22.252 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:42:22.609 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:42:22.645 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:42:23.650 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.s.SqlExceptionHelper - SQL Error: 334350, SQLState: 08U01 
+2024-10-16 21:42:23.651 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.h.e.j.s.SqlExceptionHelper - Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database> 
+2024-10-16 21:42:23.653 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata 
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>
+	at Altibase.jdbc.driver.ex.Error.createSQLExceptionInternal(Error.java:183)
+	at Altibase.jdbc.driver.ex.Error.throwSQLExceptionInternal(Error.java:176)
+	at Altibase.jdbc.driver.ex.Error.throwSQLException(Error.java:116)
+	at Altibase.jdbc.driver.AltibaseUrlParser.throwErrorForInvalidConnectionUrl(AltibaseUrlParser.java:233)
+	at Altibase.jdbc.driver.AltibaseUrlParser.parseURL(AltibaseUrlParser.java:99)
+	at Altibase.jdbc.driver.AltibaseDriver.connect(AltibaseDriver.java:63)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+2024-10-16 21:42:23.671 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-10-16 21:42:23.939 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:42:23.943 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:42:23.963 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'altibaseSqlSessionFactory' defined in class path resource [com/app/config/AltibaseDataSourceConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist 
+2024-10-16 21:42:23.963 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:42:23.967 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-10-16 21:42:23.980 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:42:23.996 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'altibaseSqlSessionFactory' defined in class path resource [com/app/config/AltibaseDataSourceConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.DemoApplication.main(DemoApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 24 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:230)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:592)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:350)
+	at org.springframework.boot.devtools.restart.ClassLoaderFilesResourcePatternResolver.getResources(ClassLoaderFilesResourcePatternResolver.java:113)
+	at org.springframework.context.support.GenericApplicationContext.getResources(GenericApplicationContext.java:261)
+	at com.app.config.AltibaseDataSourceConfiguration.altibaseSqlSessionFactory(AltibaseDataSourceConfiguration.java:42)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$0.CGLIB$altibaseSqlSessionFactory$2(<generated>)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$0.altibaseSqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 25 common frames omitted
+2024-10-16 21:45:36.313 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.MainApplication - Starting MainApplication using Java 17.0.12 with PID 22298 (/home/b/study/springboot-alti/build/classes/java/main started by b in /home/b/study/springboot-alti) 
+2024-10-16 21:45:36.316 [35m[restartedMain][0;39m [34m[INFO][0;39m c.a.MainApplication - No active profile set, falling back to 1 default profile: "default" 
+2024-10-16 21:45:36.363 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-10-16 21:45:36.364 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-10-16 21:45:36.972 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-10-16 21:45:36.991 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces. 
+2024-10-16 21:45:37.150 [35m[restartedMain][0;39m [31m[WARN][0;39m o.m.s.m.ClassPathMapperScanner - No MyBatis mapper was found in '[org.demo.twodatabase.mapper.altibase]' package. Please check your configuration. 
+2024-10-16 21:45:37.565 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port 8080 (http) 
+2024-10-16 21:45:37.574 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.h.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-10-16 21:45:37.578 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Starting service [Tomcat] 
+2024-10-16 21:45:37.578 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.30] 
+2024-10-16 21:45:37.631 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext 
+2024-10-16 21:45:37.632 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1268 ms 
+2024-10-16 21:45:37.676 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:45:38.787 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:45:39.839 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-10-16 21:45:39.900 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.Version - HHH000412: Hibernate ORM core version 6.5.3.Final 
+2024-10-16 21:45:39.932 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled 
+2024-10-16 21:45:40.155 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer 
+2024-10-16 21:45:40.194 [35m[restartedMain][0;39m [34m[INFO][0;39m c.z.h.HikariDataSource - HikariPool-1 - Starting... 
+2024-10-16 21:45:41.202 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.s.SqlExceptionHelper - SQL Error: 334350, SQLState: 08U01 
+2024-10-16 21:45:41.203 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.h.e.j.s.SqlExceptionHelper - Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database> 
+2024-10-16 21:45:41.205 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.e.j.e.i.JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata 
+org.hibernate.exception.JDBCConnectionException: unable to obtain isolated JDBC connection [Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>] [n/a]
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:100)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:58)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:116)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.getJdbcEnvironmentUsingJdbcMetadata(JdbcEnvironmentInitiator.java:292)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:124)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:78)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:130)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:238)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:215)
+	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:221)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:189)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:171)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.MainApplication.main(MainApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Invalid ALTIBASE connection URL: jdbc:Altibase://<host>:<port>/<database>
+	at Altibase.jdbc.driver.ex.Error.createSQLExceptionInternal(Error.java:183)
+	at Altibase.jdbc.driver.ex.Error.throwSQLExceptionInternal(Error.java:176)
+	at Altibase.jdbc.driver.ex.Error.throwSQLException(Error.java:116)
+	at Altibase.jdbc.driver.AltibaseUrlParser.throwErrorForInvalidConnectionUrl(AltibaseUrlParser.java:233)
+	at Altibase.jdbc.driver.AltibaseUrlParser.parseURL(AltibaseUrlParser.java:99)
+	at Altibase.jdbc.driver.AltibaseDriver.connect(AltibaseDriver.java:63)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcIsolationDelegate.delegateWork(JdbcIsolationDelegate.java:61)
+	... 40 common frames omitted
+2024-10-16 21:45:41.225 [35m[restartedMain][0;39m [31m[WARN][0;39m o.h.o.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2024-10-16 21:45:41.477 [35m[restartedMain][0;39m [34m[INFO][0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2024-10-16 21:45:41.481 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:45:41.503 [35m[restartedMain][0;39m [31m[WARN][0;39m o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'altibaseSqlSessionFactory' defined in class path resource [com/app/config/AltibaseDataSourceConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist 
+2024-10-16 21:45:41.503 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default' 
+2024-10-16 21:45:41.508 [35m[restartedMain][0;39m [34m[INFO][0;39m o.a.c.c.StandardService - Stopping service [Tomcat] 
+2024-10-16 21:45:41.524 [35m[restartedMain][0;39m [34m[INFO][0;39m o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled. 
+2024-10-16 21:45:41.540 [35m[restartedMain][0;39m [1;31m[ERROR][0;39m o.s.b.SpringApplication - Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'altibaseSqlSessionFactory' defined in class path resource [com/app/config/AltibaseDataSourceConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:636)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1355)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1185)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at com.app.MainApplication.main(MainApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'altibaseSqlSessionFactory' threw exception with message: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:178)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:644)
+	... 24 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [mybatis-mapper/altibase/] cannot be resolved to URL because it does not exist
+	at org.springframework.core.io.ClassPathResource.getURL(ClassPathResource.java:230)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.findPathMatchingResources(PathMatchingResourcePatternResolver.java:592)
+	at org.springframework.core.io.support.PathMatchingResourcePatternResolver.getResources(PathMatchingResourcePatternResolver.java:350)
+	at org.springframework.boot.devtools.restart.ClassLoaderFilesResourcePatternResolver.getResources(ClassLoaderFilesResourcePatternResolver.java:113)
+	at org.springframework.context.support.GenericApplicationContext.getResources(GenericApplicationContext.java:261)
+	at com.app.config.AltibaseDataSourceConfiguration.altibaseSqlSessionFactory(AltibaseDataSourceConfiguration.java:42)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$0.CGLIB$altibaseSqlSessionFactory$1(<generated>)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$FastClass$$1.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:258)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:348)
+	at com.app.config.AltibaseDataSourceConfiguration$$SpringCGLIB$$0.altibaseSqlSessionFactory(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:146)
+	... 25 common frames omitted
